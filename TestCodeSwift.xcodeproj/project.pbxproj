@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB30B9B41C3ACCE30075D61D /* calendar-icons@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB30B9B31C3ACCE30075D61D /* calendar-icons@3x.png */; };
+		FB5563601C378FD500727260 /* backIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB55635F1C378FD400727260 /* backIcon@3x.png */; };
 		FB6694B61C2781C500812082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6694B51C2781C500812082 /* AppDelegate.swift */; };
 		FB6694B81C2781C500812082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6694B71C2781C500812082 /* ViewController.swift */; };
 		FB6694BB1C2781C500812082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6694B91C2781C500812082 /* Main.storyboard */; };
 		FB6694BD1C2781C500812082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6694BC1C2781C500812082 /* Assets.xcassets */; };
 		FB6694C01C2781C500812082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6694BE1C2781C500812082 /* LaunchScreen.storyboard */; };
-		FB9E5F4A1C376B0B0009514B /* CutomViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E5F491C376B0B0009514B /* CutomViewDemo.swift */; };
-		FB9E5F4C1C376B1C0009514B /* CutomViewDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9E5F4B1C376B1C0009514B /* CutomViewDemo.xib */; };
 		FBFC368B1C28FC610066D06D /* UILabelExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC368A1C28FC610066D06D /* UILabelExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB30B9B31C3ACCE30075D61D /* calendar-icons@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icons@3x.png"; sourceTree = "<group>"; };
+		FB55635F1C378FD400727260 /* backIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backIcon@3x.png"; sourceTree = "<group>"; };
 		FB6694B21C2781C500812082 /* TestCodeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCodeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6694B51C2781C500812082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6694B71C2781C500812082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +27,6 @@
 		FB6694BC1C2781C500812082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6694BF1C2781C500812082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB6694C11C2781C500812082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB9E5F491C376B0B0009514B /* CutomViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CutomViewDemo.swift; sourceTree = "<group>"; };
-		FB9E5F4B1C376B1C0009514B /* CutomViewDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CutomViewDemo.xib; sourceTree = "<group>"; };
 		FBFC368A1C28FC610066D06D /* UILabelExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,10 +60,10 @@
 		FB6694B41C2781C500812082 /* TestCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FB30B9B31C3ACCE30075D61D /* calendar-icons@3x.png */,
+				FB55635F1C378FD400727260 /* backIcon@3x.png */,
 				FB6694B51C2781C500812082 /* AppDelegate.swift */,
 				FB6694B71C2781C500812082 /* ViewController.swift */,
-				FB9E5F491C376B0B0009514B /* CutomViewDemo.swift */,
-				FB9E5F4B1C376B1C0009514B /* CutomViewDemo.xib */,
 				FB6694B91C2781C500812082 /* Main.storyboard */,
 				FB6694BC1C2781C500812082 /* Assets.xcassets */,
 				FB6694BE1C2781C500812082 /* LaunchScreen.storyboard */,
@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					FB6694B11C2781C500812082 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EVEWM7299Q;
 					};
 				};
 			};
@@ -131,9 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB30B9B41C3ACCE30075D61D /* calendar-icons@3x.png in Resources */,
 				FB6694C01C2781C500812082 /* LaunchScreen.storyboard in Resources */,
+				FB5563601C378FD500727260 /* backIcon@3x.png in Resources */,
 				FB6694BD1C2781C500812082 /* Assets.xcassets in Resources */,
-				FB9E5F4C1C376B1C0009514B /* CutomViewDemo.xib in Resources */,
 				FB6694BB1C2781C500812082 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +149,6 @@
 			files = (
 				FBFC368B1C28FC610066D06D /* UILabelExtention.swift in Sources */,
 				FB6694B81C2781C500812082 /* ViewController.swift in Sources */,
-				FB9E5F4A1C376B0B0009514B /* CutomViewDemo.swift in Sources */,
 				FB6694B61C2781C500812082 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestCodeSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VienVu.TestCodeSwift;
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestCodeSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VienVu.TestCodeSwift;
